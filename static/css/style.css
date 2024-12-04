@@ -1,0 +1,24 @@
+.dvCaixas div{
+   background-color: #cfcfcf;
+   margin-left: 10px;
+   width: 32%;
+   padding: 20px;
+   
+}
+
+.dvCaixas div:nth-child(2){
+   background-color: red;
+}
+
+.dvCaixas div:nth-child(3){
+   background-color: rgb(100, 219, 100);
+}
+
+.dvBusca form input{
+   margin-right: 10px;
+}
+
+.excluir{
+   margin-left: 40px;
+   
+}
