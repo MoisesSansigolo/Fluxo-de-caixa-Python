@@ -39,7 +39,7 @@
             <input
               type="text"
               name="tipo"
-              placeholder="Digite algo....."
+              placeholder="Pesquise por ...."
               value="{{ termo_busca }}"
               class="form-control mr-2"
             />
@@ -87,7 +87,7 @@
                 <td>{{"Ganhos" if conta.status == 1 else "Despesa"}}</td>
                 <td class="text-end">
                   <a
-                    href="{{ url_for('excluir', id = conta.id )}}"
+                    href="{{ url_for('home.excluir', id = conta.id )}}"
                     onclick="return confirm('Confirma a Exclusão?')"
                     class="btn btn-danger brn-sm btn"
                     >Excluir</a
